@@ -1,0 +1,62 @@
+export const recipes = [
+  {
+    id: 1,
+
+    name: "Spaghetti Bolognese",
+    image:
+      "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/the-best-spaghetti-bolognese-7e83155.jpg?quality=90&webp=true&resize=300,272",
+    cuisine: "Italian",
+    ingredients: [
+      "500g spaghetti",
+      "400g ground beef",
+      "1 onion",
+      "2 cloves of garlic",
+      "400g canned tomatoes",
+      "2 tablespoons tomato paste",
+      "1 teaspoon dried oregano",
+      "Salt and pepper to taste",
+      "Grated Parmesan cheese for serving",
+    ],
+    instructions: [
+      "Cook the spaghetti according to the package instructions.",
+      "In a large pan, heat some oil and sauté the onion and garlic until fragrant.",
+      "Add the ground beef and cook until browned.",
+      "Add the canned tomatoes, tomato paste, dried oregano, salt, and pepper. Simmer for 15-20 minutes.",
+      "Serve the Bolognese sauce over cooked spaghetti and sprinkle with grated Parmesan cheese.",
+    ],
+  },
+  {
+    id: 2,
+    name: "Paneer Tikka Masala",
+    image:
+      "https://www.cookwithmanali.com/wp-content/uploads/2014/04/Paneer-Tikka-Masala-676x1024.jpg",
+    cuisine: "Indian",
+    ingredients: [
+      "500g chicken breast",
+      "1 cup plain yogurt",
+      "2 tablespoons lemon juice",
+      "2 teaspoons ground cumin",
+      "2 teaspoons ground paprika",
+      "1 teaspoon ground turmeric",
+      "1 teaspoon ground coriander",
+      "1 teaspoon garam masala",
+      "1 teaspoon chili powder",
+      "4 cloves of garlic",
+      "1-inch piece of ginger",
+      "1 onion",
+      "1 can (400g) tomato sauce",
+      "1 cup heavy cream",
+      "Fresh cilantro for garnish",
+      "Salt to taste",
+    ],
+    instructions: [
+      "In a bowl, mix the yogurt, lemon juice, ground cumin, ground paprika, ground turmeric, ground coriander, garam masala, chili powder, minced garlic, and grated ginger.",
+      "Add the chicken pieces to the marinade and refrigerate for at least 1 hour.",
+      "In a large pan, heat some oil and sauté the onion until golden brown.",
+      "Add the marinated chicken pieces and cook until browned.",
+      "Stir in the tomato sauce and simmer for 15 minutes.",
+      "Add the heavy cream and cook for an additional 5 minutes.",
+      "Garnish with fresh cilantro and serve with rice or naan bread.",
+    ],
+  },
+];

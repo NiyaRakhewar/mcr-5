@@ -1,0 +1,50 @@
+.single-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.name {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.single-page-card {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  gap: 10rem;
+}
+
+.image-container {
+  width: 40%;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.details {
+  padding: 20px;
+}
+
+.cuisine {
+  font-weight: bold;
+}
+
+.ingredients,
+.instructions {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 5px;
+}

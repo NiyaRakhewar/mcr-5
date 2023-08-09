@@ -1,14 +1,14 @@
 import "./App.css";
-import { Home } from "./Home";
 import { Routes, Route } from "react-router-dom";
-import { RecipePage } from "./RecipePage";
+import { Home } from "./component/Home/Home";
+import { SinglePage } from "./component/SinglePage/SinglePage";
 
 function App() {
   return (
     <div className="App">
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/:id" element={<RecipePage />} />
+        <Route path="/singlePage/:id" element={<SinglePage />} />
       </Routes>
     </div>
   );
